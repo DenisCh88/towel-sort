@@ -7,7 +7,7 @@ module.exports = function towelSort(matrix) {
   if (matrix === undefined || matrix.length === 0) {
     return [];
   } else {
-    matrix.forEach(function (item, i, array) {
+    matrix.forEach( (item, i, ) => {
       if (i === 0) {
         newMatrix.push(item);
       } else if (i % 2 === 0) {
